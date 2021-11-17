@@ -1,0 +1,143 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background: #0b0000;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    .logo{
+        width: 25%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .menu_link{
+        padding-left: 30px;
+        color:#fff;
+        &:hover{
+            color:#fffb; 
+        }
+    }
+}
+
+.slider{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    .slider_content{
+        width: 15%;
+        .slider_title{
+            font-family: URW Chancery INITIAL;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 33px;
+            margin-bottom: 3px;
+        }
+        .slider_text{
+            font-size: 16px;
+            line-height: 18px;
+            font-family: URW Chancery INITIAL;
+            font-style: italic;
+            margin-top: 3px;
+            color: rgb(87, 82, 82);
+        }
+    }
+    .slider_img{
+        width: 50%;
+        .img{
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.content_body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .blok_left {
+        width: 33%;
+        font-size: 16px;
+            line-height: 18px;
+    }
+
+    .blok_right {
+        margin-left: 100px;
+        width: 33%;
+    }
+
+}
+
+.block_text{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: URW Chancery INITIAL;
+    font-style: italic;
+    color: rgb(87, 82, 82);
+}
+
+.block_title{
+    font-family: URW Chancery INITIAL;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.form_title{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.contact_forms{
+    padding-bottom: 150px;
+    input{
+        height: 5%;
+        width: 30%;
+    }
+
+    .form_element{
+        padding-top: 20px;
+    }
+
+    .btn_form{
+        height: 5%;
+        width: 25%;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #0b0000;
+    height: auto;
+    width: 100%;
+    .footer_blok_left{
+        margin-left:15%;
+        width: 50%;
+    }
+    .footer_blok_right{
+        margin-right:15%;
+        width: 50%;
+    }
+    .title_footer{
+        color: #fff;
+        font-family: URW Chancery INITIAL;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom:5px;
+    }
+    .content_footer{
+        margin-top:5px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: URW Chancery INITIAL;
+        font-style: italic;
+    }
+}
